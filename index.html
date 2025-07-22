@@ -1,110 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OlaHub | Digital Marketplace</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OlaHub - Digital Marketplace</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
-  <header class="navbar">
-    <div class="container">
-      <img src="https://i.ibb.co/DDyZLhk/olahub-logo.png" alt="OlaHub Logo" class="logo">
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="auth-buttons">
-        <a href="#" class="btn-login">Login</a>
-        <a href="#" class="btn-register">Register</a>
-      </div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">OlaHub</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#metrics">Stats</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>All-in-One Digital Marketplace</h1>
+      <p>Discover. Trade. Grow.</p>
+      <a href="#" class="btn">Get Started</a>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container hero-content">
-      <div class="hero-text">
-        <h1>Empower Your Digital Presence with OlaHub</h1>
-        <p>Discover the marketplace where brands, creatives, and businesses thrive with digital excellence. We offer tailored solutions to grow, promote, and establish your online identity.</p>
-        <a href="#" class="btn-cta">Explore Marketplace</a>
+  <!-- About Us Section -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2>About OlaHub</h2>
+        <p>OlaHub is a digital marketplace where you can find verified vendors, explore unique offerings, and grow your online presence with ease. Built with simplicity and credibility in mind.</p>
+        <a href="#" class="btn btn-alt">Learn More</a>
       </div>
-      <div class="hero-image">
-        <img src="https://i.ibb.co/JWdS98ZK/olahub-hero-image.png" alt="OlaHub Hero">
+      <div class="about-image">
+        <img src="https://i.ibb.co/JWdS98ZK/lady-hearts.png" alt="OlaHub Community" />
       </div>
     </div>
   </section>
-</body>
-</html>
 
-<section class="about">
-  <div class="container about-content">
-    <div class="about-image">
-      <img src="https://i.ibb.co/fCzB2VF/about-lady.png" alt="About OlaHub">
-    </div>
-    <div class="about-text">
-      <h2>Why OlaHub?</h2>
-      <p>OlaHub is not just a digital marketplace — it's a launchpad for creators, startups, and businesses who want to scale fast. We help you grow your brand with instant digital credibility, access to real audiences, and tools that get results.</p>
-      <ul class="about-list">
-        <li><i class="fas fa-check-circle"></i> Verified digital assets with real traction</li>
-        <li><i class="fas fa-check-circle"></i> Ready-to-scale social platforms</li>
-        <li><i class="fas fa-check-circle"></i> Custom support for creators and brands</li>
-        <li><i class="fas fa-check-circle"></i> A marketplace built for trust and growth</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="metrics">
-  <div class="container metrics-grid">
-    <div class="metric-item">
-      <h3>150+</h3>
-      <p>Trusted Sellers</p>
-    </div>
-    <div class="metric-item">
-      <h3>1,200+</h3>
-      <p>Completed Deals</p>
-    </div>
-    <div class="metric-item">
-      <h3>480+</h3>
-      <p>Active Clients</p>
-    </div>
-    <div class="metric-item">
-      <h3>2,000+</h3>
-      <p>Digital Assets Listed</p>
-    </div>
-  </div>
-</section>
-
-<section class="features">
+  <!-- Why OlaHub Works for You -->
+<section id="benefits" class="why-olahub">
   <div class="container">
     <h2 class="section-title">Why OlaHub Works for You</h2>
-    <div class="features-grid">
-      <div class="feature-card">
+    <div class="benefits-grid">
+      <div class="benefit-item">
+        <i class="fas fa-user-shield"></i>
+        <h3>Trust & Transparency</h3>
+        <p>OlaHub ensures verified sellers, genuine buyers, and secure transactions — always.</p>
+      </div>
+      <div class="benefit-item">
         <i class="fas fa-bolt"></i>
-        <h3>Instant Digital Presence</h3>
-        <p>Launch your business with assets that are already visible, indexed, and trusted across the web.</p>
+        <h3>Instant Deals</h3>
+        <p>Experience fast, smooth exchanges with reliable delivery for digital products and services.</p>
       </div>
-      <div class="feature-card">
-        <i class="fas fa-clock"></i>
-        <h3>Time-Saving Solutions</h3>
-        <p>No more starting from scratch. Get right to business with platforms built to perform.</p>
-      </div>
-      <div class="feature-card">
-        <i class="fas fa-users"></i>
-        <h3>Targeted Audience</h3>
-        <p>Reach the right people faster. Our platforms come with active followers and real engagement.</p>
-      </div>
-      <div class="feature-card">
-        <i class="fas fa-chart-line"></i>
-        <h3>Strategic Growth</h3>
-        <p>We help you scale with precision. Whether you're a brand or a creative, growth starts here.</p>
+      <div class="benefit-item">
+        <i class="fas fa-globe-africa"></i>
+        <h3>For Everyone, Everywhere</h3>
+        <p>Whether you’re a creator, freelancer, or buyer — OlaHub connects you globally with ease.</p>
       </div>
     </div>
   </div>
 </section>
+
+  <!-- Counter Section -->
+  <section class="metrics" id="metrics">
+    <div class="container metrics-grid">
+      <div class="metric-item">
+        <h3><span class="odometer" data-count="150">0</span>+</h3>
+        <p>Trusted Sellers</p>
+      </div>
+      <div class="metric-item">
+        <h3><span class="odometer" data-count="1200">0</span>+</h3>
+        <p>Completed Deals</p>
+      </div>
+      <div class="metric-item">
+        <h3><span class="odometer" data-count="480">0</span>+</h3>
+        <p>Active Clients</p>
+      </div>
+      <div class="metric-item">
+        <h3><span class="odometer" data-count="2000">0</span>+</h3>
+        <p>Digital Assets Listed</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <img src="https://i.ibb.co/DDyZLhk/olahub-logo.png" alt="OlaHub Logo" class="footer-logo" />
+        <p>Your all-in-one digital marketplace to buy, sell, and grow with confidence.</p>
+        <div class="footer-socials">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Register</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><i class="fas fa-envelope"></i> support@olahub.com</li>
+          <li><i class="fas fa-phone"></i> +234 800 123 4567</li>
+          <li><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <form>
+          <input type="email" placeholder="Your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 OlaHub. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Odometer JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
