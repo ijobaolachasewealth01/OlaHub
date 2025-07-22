@@ -192,3 +192,29 @@ a {
   color: var(--orange);
   margin-right: 0.5rem;
 }
+
+/* Metrics / Counter Section */
+.metrics {
+  background-color: var(--green);
+  color: var(--white);
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.metric-item h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.metric-item p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #e2e2e2;
+}
