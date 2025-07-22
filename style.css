@@ -104,52 +104,51 @@ a {
 
 /* Why OlaHub Works Section */
 .why-olahub {
-  padding: 4rem 2rem;
   background-color: var(--white);
-  color: var(--dark);
+  padding: 4rem 2rem;
   text-align: center;
 }
 
 .why-olahub .section-title {
   font-size: 2rem;
-  margin-bottom: 2rem;
   color: var(--green);
+  margin-bottom: 2.5rem;
 }
 
-.benefits-grid {
+.benefits {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 2rem;
-  margin-top: 2rem;
+  justify-content: center;
 }
 
-.benefit-item {
-  background: #f9f9f9;
-  padding: 2rem 1.5rem;
+.benefit {
+  background: #fefefe;
   border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
 }
 
-.benefit-item:hover {
+.benefit:hover {
   transform: translateY(-8px);
 }
 
-.benefit-item i {
-  font-size: 2rem;
+.benefit i {
+  font-size: 2.2rem;
   color: var(--orange);
   margin-bottom: 1rem;
 }
 
-.benefit-item h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+.benefit h3 {
+  font-size: 1.25rem;
   color: var(--dark);
+  margin-bottom: 0.5rem;
 }
 
-.benefit-item p {
+.benefit p {
   font-size: 0.95rem;
-  color: #555;
+  color: #444;
 }
 
 /* Metrics / Counter Section */
